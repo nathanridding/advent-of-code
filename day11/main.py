@@ -113,7 +113,7 @@ def find_visible_p2(data, i, j):
             visible.append('#')
             break
         d += 1
-    #south-east
+    #north-east
     d = 1
     while i-d >= 0 and j+d < len(data[i]):
         if data[i-d][j+d] == 'L':
