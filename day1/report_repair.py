@@ -1,4 +1,4 @@
-with open('/home/nathan/python-advent-exercises/day1/data.txt') as f:
+with open('/home/nathan/adventofcode20/day1/data.txt') as f:
     data = f.read().splitlines()
 
 #print(data)

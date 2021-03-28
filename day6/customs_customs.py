@@ -26,7 +26,6 @@ def count_questions_p2(data):
                 sum += 1 / people
     return sum
 
-
 def main():
     #print(get_data('test.txt'))
     data = get_data('data.txt')

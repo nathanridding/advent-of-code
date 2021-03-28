@@ -1,5 +1,5 @@
 def get_data(filename):
-    with open('/home/nathan/adventofcode20/day2/' + filename, 'rt') as f:
+    with open('./' + filename, 'rt') as f:
         data = [line.split() for line in f.read().splitlines()]
     #format the data as a dictionary so that is easier to use
     newData = []
